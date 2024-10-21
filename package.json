@@ -1,0 +1,26 @@
+{
+  "name": "convert-to-pdf",
+  "version": "1.0.0",
+  "description": "Extensión de Chrome para convertir páginas a PDF",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "chrome-extension",
+    "pdf",
+    "html2canvas",
+    "jspdf"
+  ],
+  "type":"module",
+
+  "author": "M SAMIR SERAJALDDIN WAEZ",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.2"
+  }
+}
